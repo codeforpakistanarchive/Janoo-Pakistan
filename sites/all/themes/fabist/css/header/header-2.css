@@ -1,0 +1,102 @@
+.header-2 #header .header-top .header-left {
+	border-bottom: 1px solid #ccc;
+	float: left;
+	height: 83px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.header-2 #logo {
+    margin: 26px 30px 26px 0;
+    text-align: center;
+    width: 100%;
+}
+.header-2 #header .header-top .header-last {
+	float: right;
+	height: 40px;
+	margin-right: 5%;
+	width: 5%;
+}
+.header-2 #header .header-top {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.header-2 #header {
+	padding: 0px;
+}
+.header-2 #search-box .search-icon {
+	margin-top: 7px;
+}
+.header-2 #search-box .search-form {
+	margin-top: 19px;
+}
+/*
+*** BOX MENU
+*/
+.box-menu.header-2 #navigation {
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	margin-left: 5%;
+	padding: 0;
+}
+.box-menu.header-2 #navigation #main-menu li {
+	margin-top: 0px;
+}
+.box-menu.header-2 #navigation #main-menu li {
+	margin-top: 0px;
+}
+.box-menu.header-2 #navigation #main-menu ul ul {
+	margin-top: 9px;
+}
+/*
+*** LINE MENU
+*/
+.line-menu.header-2 #navigation {
+    float: left;
+    height: 4px;
+    line-height: 45px;
+    margin-left: 5%;
+    padding: 0;
+}
+.line-menu.header-2 #navigation #main-menu ul li a {
+    height: 45px;
+    line-height: 42px;
+}
+.line-menu.header-2 #navigation #main-menu ul ul li a {
+    height: auto;
+    line-height: 19px;
+}
+.line-menu.header-2 #header .header-top .header-left {
+    margin-bottom: 0;
+}
+.line-menu.header-2 #search-box .search-icon {
+    margin-top: 12px;
+}
+.line-menu.header-2 #search-box .search-form {
+    margin-top: 8px;
+}
+/*
+*** ROUND MENU
+*/
+
+
+.round-menu.header-2 #navigation #main-menu li {
+    height: 42px;
+    margin-right: 2px;
+    margin-top: 0;
+    padding: 0;
+}
+.round-menu.header-2 #navigation {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 5%;
+    padding: 0;
+}
+.round-menu.header-2 #search-box .search-form {
+    margin-top: 21px;
+}
+.round-menu.header-2 #search-box .search-icon {
+    margin-top: 10px;
+}

@@ -1,0 +1,54 @@
+/* boder-color */
+#main-menu ul ul,
+#main-menu ul li a:hover,
+#main-menu ul li a.active,
+#main-menu ul li a.active-item, 
+#main-menu ul li a.active-trail,
+.main-section-header,
+.l-footer,
+.view-portfolio-filter ul li a.selected,
+.view-portfolio-filter ul li a:hover,
+.view-portfolio-filter ul li a:active  {
+	border-color:#00aced !important;
+}
+/* background-color */
+.box-menu #navigation #main-menu ul li a:hover,
+.box-menu #navigation #main-menu ul li a.active,
+.box-menu #navigation #main-menu ul li a.active-item,
+.box-menu #navigation #main-menu ul li a.active-trail,
+
+.round-menu #navigation #main-menu ul ul,
+.round-menu #navigation #main-menu ul li a:hover,
+.round-menu #navigation #main-menu ul li a.active,
+.round-menu #navigation #main-menu ul li a.active-item,
+.round-menu #navigation #main-menu ul li a.active-trail,
+.view-theme-image .views-field-nothing #detail .mask,
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.page-portfolio-list-view- .view-portfolio .views-field-field-category,
+.view-portfolio.view-display-id-page_4 .info,
+#search-box .search-form .form-submit,
+#search-box span.icon {
+	background-color:#00aced;
+}
+/* color */
+#navigation #main-menu  ul li a:hover,
+#navigation #main-menu  ul li a.active,
+#navigation #main-menu  ul li a.active-item,
+#navigation #main-menu  ul li a.active-trail,
+nav.breadcrumb ol li a,
+.theme-content-list-view .right-side .category,
+.panel-col-last a:hover,
+nav.breadcrumb ol,
+a:link,
+a {
+	color:#00aced;
+}
+.round-menu #navigation #main-menu  ul ul li a:hover {
+	background-color:#1BB1EA;
+}
+.round-menu #navigation #main-menu ul ul li {
+	border-bottom:1px solid #1BB1EA;
+}

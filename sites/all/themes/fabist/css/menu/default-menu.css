@@ -1,0 +1,83 @@
+#navigation {
+    float: left;
+    height: 83px;
+    line-height: 83px;
+    margin-bottom: 0;
+    position: relative;
+}
+#navigation #main-menu {
+    float: left;
+    width: 100%;
+	font: 14px/16px 'MuseoSlab500Regular', arial, helvetica, sans-serif;
+    z-index: 99997;
+}
+#navigation #main-menu ul {
+	float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+	display:block;
+}
+#navigation #main-menu ul li {
+	float:left;
+	display:block;
+	position:relative;
+}
+#navigation #main-menu ul li a {
+    display: block;
+    font-size: 13px;
+	font-family:Open Sans;
+    text-decoration: none;
+	height:83px;
+	line-height:83px;
+    text-decoration: none;
+	padding: 0px 10px 0px 10px;
+
+}
+#navigation #main-menu  ul li ul li a:hover,
+#navigation #main-menu  ul li ul li a.active,
+#navigation #main-menu  ul li ul li a.active-trail {
+	border: none;
+}
+#navigation #main-menu ul li a:hover,
+#navigation #main-menu ul li a.active-item {
+	-webkit-transition: background-color 0.2s ease-out;
+	-moz-transition: background-color 0.2s ease-out;
+	-o-transition: background-color 0.2s ease-out;
+	transition: background-color 0.2s ease-out;
+}
+#navigation #main-menu  ul ul {
+    position: absolute;
+    left: 0px;
+    width: 170px;
+    z-index: 99997;
+    display:none;
+    border-bottom: 3px solid;
+}
+#navigation #main-menu  ul li li {
+	float:left !important;
+	position:relative;
+	padding:0px !important;
+	margin-right:0px;
+	background:none;
+	width:100%;
+}
+#navigation #main-menu  ul li li.last {
+	border-bottom:none;
+}
+#navigation #main-menu  ul ul a {
+   border: 0;
+   height: auto;
+   text-indent: 0px;
+   font: 13px/30px 'PT Sans', Arial, Helvetica, sans-serif;
+   padding: 7px 20px;
+   line-height: 19px;
+}
+#navigation #main-menu ul ul ul {
+    border: none;
+    left: 170px;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    border-bottom: 3px solid;
+}

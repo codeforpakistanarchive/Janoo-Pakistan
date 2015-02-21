@@ -1,0 +1,70 @@
+.round-menu #navigation #main-menu li {
+    margin-right: 2px;
+	padding:0px;
+    height: 60px;
+    margin-top: 23px;
+}
+.round-menu #navigation #main-menu ul li a {
+    height: auto;
+    line-height: 20px;
+	border-radius:4px;
+    line-height: 20px;
+    padding: 10px 22px;
+}
+.round-menu #navigation #main-menu ul li.is-expanded a:after {
+  content: "\f107";
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  margin-left: 6px;
+  position: absolute;
+}
+.round-menu #navigation #main-menu ul ul li.is-expanded:after {
+  content: "\f0da";
+  font-family: FontAwesome;
+  font-style: normal;
+  margin-left: 4px;
+  position: absolute;
+  right: 2px;
+  top: 10px;
+  color:#fff;
+}
+.round-menu #navigation #main-menu ul li.is-expanded ul a:after,
+.round-menu #navigation #main-menu ul ul ul li.is-expanded:after  {
+  content: "";
+
+}
+
+.round-menu #navigation #main-menu ul li a:hover,
+.round-menu #navigation #main-menu ul li a.active,
+.round-menu #navigation #main-menu ul li a.active-item,
+.round-menu #navigation #main-menu ul li a.active-trail {
+	color:#fff;
+}
+.round-menu #navigation #main-menu ul ul {
+    border-radius: 0 10px 10px;
+    border: 0 none;
+    border-radius: 0 6px 6px;
+    padding: 5px;
+	margin:-3px 0 0;
+}
+.round-menu #navigation #main-menu ul ul ul {
+    top: -3px;
+}
+.round-menu #navigation #main-menu ul ul li {
+	height:auto;
+	margin:0px;
+}
+.round-menu #navigation #main-menu ul li.last {
+	border:none;
+}
+.round-menu #navigation #main-menu ul ul li a {
+    font-size: 0.9em;
+    font-weight: 400;
+    padding: 8px 10px 8px 5px;
+    position: relative;
+    text-transform: none;
+	color:#fff;
+	border-radius:0px;
+}
+

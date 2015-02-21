@@ -1,0 +1,48 @@
+.header-1 .region-header-last {
+    float: left;
+    margin-right: 6%;
+    width: 94%;
+}
+.header-1 #header .header-top .header-left {
+    float: left;
+    width: auto;
+	height:83px;
+	width:15%;
+	padding-left:5%;
+}
+.header-1 #header .header-top .header-last {
+    float: right;
+    height: 83px;
+    width: 5%;
+	padding-right:5%;
+}
+.header-1 .header__region {
+    clear: both;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+}
+.header-1 .header-left-1 {
+	float:right;
+}
+.header-1 .header-right-1 {
+	float:right;
+}
+.header-1 #navigation {
+  width: 68%;
+}
+.header-1 .main-section-header {
+    float: left;
+    margin-bottom: 20px;
+    min-height: 40px;
+    padding: 20px 5% 5px;
+    width: 90%;
+}
+.header-1 #header .header-top {
+    width: 100%;
+}
+.header-1 #header {
+    z-index: 100;
+	padding:0px;
+}

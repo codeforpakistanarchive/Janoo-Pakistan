@@ -1,0 +1,29 @@
+#navigation #main-menu li {
+	background: url("../../images/border-right.png") no-repeat scroll 100% 10% rgba(0, 0, 0, 0);
+	float: left;
+	height: 60px;
+	list-style-image: none;
+	list-style-type: none;
+	margin-right: 5px;
+	margin-top: 24px;
+	padding: 0 6px 0 0;
+}
+#navigation #main-menu ul li a {
+    height: auto;
+    line-height: 36px;
+    margin-top: 0;
+    padding: 0 20px;
+}
+#navigation #main-menu ul li.last {
+	border-right:none;
+	margin-right:0px;
+	padding-right:0px;
+	background:none;
+}
+#navigation #main-menu ul ul {
+    margin-top: 22px;
+}
+#navigation #main-menu ul ul li {
+	height:auto;
+	margin:0px;
+}

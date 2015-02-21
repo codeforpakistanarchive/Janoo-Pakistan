@@ -1,0 +1,76 @@
+.header-3 #header {
+    padding:0px;
+}
+.header-3 #header .header-top {
+    width: 100%;
+}
+.header-3 #header .header-top .header-left {
+    float: left;
+    height: 83px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+    width: 60%;
+}
+.header-3 #header .header-top .header-last {
+    float: right;
+    height: 40px;
+    margin-right: 5%;
+    width: 26%;
+}
+.header-3 #search-box .search-icon {
+    display: none;
+}
+.header-3 #search-box .search-form {
+    display: block;
+    padding: 0px;
+}
+/*
+*** ROUND MENU
+*/
+.header-3.round-menu #navigation {
+    border-top: 1px solid #ccc;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    padding: 10px 5% 0;
+    width: 100%;
+}
+.header-3.round-menu #navigation #main-menu li {
+    height: 50px;
+	margin-top:0px;
+}
+.header-3.round-menu #navigation #main-menu li ul li {
+    height: auto;
+}
+
+/*
+*** Line MENU
+*/
+.line-menu.header-3 #navigation {
+    border-top: 1px solid #ccc;
+    float: left;
+    height: 92px;
+    line-height: 92px;
+    padding: 10px 5% 0;
+    width: 100%;
+}
+/*
+*** Box MENU
+*/
+.header-3.box-menu #navigation {
+    border-top: 1px solid #ccc;
+    float: left;
+    height: 55px;
+    line-height: 55px;
+    padding: 9px 5% 9px;
+    width: 100%;
+}
+.header-3.box-menu #navigation #main-menu li {
+	margin-top:0px;
+}
+.header-3.box-menu #navigation #main-menu ul ul {
+	margin-top:9px;
+}
+.header-3.box-menu #navigation #main-menu ul ul ul {
+	margin-top:0px;
+}
