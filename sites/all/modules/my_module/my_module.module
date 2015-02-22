@@ -1,0 +1,6 @@
+<?php
+function my_module_form_alter(&$form, &$form_state, $form_id) {
+  if($form_id == 'share_link_node_form'){
+    $form['field_article']['und']['#default_value'][0]['nid'] = arg(1);
+  }
+}

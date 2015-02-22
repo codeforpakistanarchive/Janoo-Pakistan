@@ -161,7 +161,7 @@
   <div class="bottom-inner">
   <div class="bottom-left-right">
    <div class="bottem-left">
-   <p>&copy; 2014 Theme Boutique. All rights reserved.</p>
+   <p>&copy; 2015 Janoo Pakistan. All rights reserved.</p>
    </div>
    <div class="bottom-right">
    <div class="social">

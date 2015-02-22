@@ -360,3 +360,104 @@ a.nav-toggles {
 	width:100%;
 }
 }
+@media all and (max-width: 360px) {
+.front #block-views-exp-constitution-search-page {
+    width: 87%;
+    padding: 40px 10px !important;
+}
+#block-views-exp-constitution-search-page .block-title .text {
+        margin-bottom: 10px;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.front #block-views-exp-constitution-search-page {
+        margin-top: 10px;
+}
+.front #main-section {
+    min-height: 406px;
+}
+.view-node-view .views-field-nothing {
+    border-top: 5px solid #333;
+    float: right;
+    width: 100%;
+}
+.view-node-view .views-field-nothing .ann {
+      -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #282a2b;
+    border-color: -moz-use-text-color #a0ce4e #a0ce4e;
+    border-image: none;
+    border-radius: 0 0 10px 10px;
+    border-style: none solid solid;
+    border-width: 0 4px 4px;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-top: 0 !important;
+    padding: 0 0 15px;
+    text-align: center;
+    width: 29.6%;
+}
+.view-share-this .views-row {
+    width: 91%;
+}
+.share-form-submit {
+    width: 80%;
+}
+}
+@media all and (max-width: 320px) {
+.front #block-views-exp-constitution-search-page {
+    width: 87%;
+    padding: 40px 10px !important;
+}
+#block-views-exp-constitution-search-page .block-title .text {
+        margin-bottom: 10px;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.front #block-views-exp-constitution-search-page {
+        margin-top: 10px;
+}
+.front #main-section {
+    min-height: 406px;
+}
+.view-node-view .views-field-nothing {
+    border-top: 5px solid #333;
+    float: right;
+    width: 100%;
+}
+.view-node-view .views-field-nothing .ann {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #282a2b;
+    border-color: -moz-use-text-color #a0ce4e #a0ce4e;
+    border-image: none;
+    border-radius: 0 0 10px 10px;
+    border-style: none solid solid;
+    border-width: 0 4px 4px;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-top: 0 !important;
+    padding: 0 0 15px;
+    text-align: center;
+    width: 29.3%;
+}
+.view-share-this .views-row {
+    width: 90%;
+}
+.share-form-submit {
+    width: 79%;
+}
+}
+

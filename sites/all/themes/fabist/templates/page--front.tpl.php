@@ -7,6 +7,7 @@
  * @see https://drupal.org/node/1728148
  */
 ?>
+<div class="background"><img src="/sites/all/themes/fabist/images/bg.jpg"></div>
 <div id="page">
   <?php if ($page['header_upper']): ?>
     <div class="header-upper">
@@ -160,7 +161,7 @@
   <div class="bottom-inner">
   <div class="bottom-left-right">
    <div class="bottem-left">
-   <p>&copy; 2014 Theme Boutique. All rights reserved.</p>
+   <p>&copy; 2015 Janoo Pakistan. All rights reserved.</p>
    </div>
    <div class="bottom-right">
    <div class="social">

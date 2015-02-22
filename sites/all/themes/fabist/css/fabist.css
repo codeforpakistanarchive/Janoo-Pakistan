@@ -55,7 +55,10 @@ html , body {
     z-index: 1000;
 	position:relative;
 	height:auto;
-        border-bottom: 5px solid #a0ce4e;
+
+}
+.front #header {
+            border-bottom: 4px solid #a0ce4e;
 }
 #header a {
 	text-decoration:none;
@@ -177,9 +180,9 @@ nav.breadcrumb ol a {
     width: 48%;
 }
 .sidebar-first #main {
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 70%;
+    margin-left: 2%;
+    margin-right: 5%;
+    width: 68%;
 }
 .sidebar-second #main {
     margin-left: 0;
@@ -287,9 +290,9 @@ node-type-portfolio #main #content,
 }
 .region.region-sidebar-first {
     float: left;
-    margin-left: 2%;
+    margin-left: 5%;
     padding: 0;
-    width: 23%;
+    width: 20%;
 }
 .region.region-sidebar-second {
     float: left;
@@ -366,6 +369,13 @@ node-type-portfolio #main #content,
     width: 100%;
 	margin-top:20px;
 }
+.front .l-footer {
+    float: left;
+    margin-top: 0;
+    padding-top: 5px;
+    width: 100%;
+    position: relative;
+}
 .l-footer a:link {
 	color:#fff;
 }
@@ -427,6 +437,7 @@ node-type-portfolio #main #content,
     padding-bottom: 6px;
     padding-top: 12px;
     width: 100%;
+    position: relative;
 }
 ul.toolbar {
 	float:right;
@@ -810,14 +821,14 @@ a:focus {
 .header__region .block-content {
     text-align: center;
 }
-.front #header #navigation,
-.front #header .header-last {
+#header #navigation,
+#header .header-last {
     display:none;
 }
 .front #main-section {
-   min-height: 410px;
+   min-height: 600px;
 }
-.front.header-2 #header .header-top .header-left {
+.header-2 #header .header-top .header-left {
         margin-bottom: 0px;
 }
 .front #block-views-exp-constitution-search-page {
@@ -828,27 +839,249 @@ a:focus {
     padding: 0 2% 10px;
     width: 50%;
 }
-#main-section {
-    background: url("../images/bg.jpg");
-}
+
 .front #block-views-exp-constitution-search-page input.form-text {   
-    color: #333;
+    color: #999;
     font-size: 25px;
     margin: 0;
     padding: 10px;
 
     }
-    .front #block-views-exp-constitution-search-page .form-submit{
+    .front #block-views-exp-constitution-search-page .views-submit-button {
         display: none;
     }
     .front #block-views-exp-constitution-search-page {
-        border: 1px solid #a0ce4e;
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #bbb;
+    box-shadow: 5px 5px 5px 0 #6a6a6a;
+    padding: 40px;
+    text-align: center;
+        opacity: 0.9;
     }
-    #block-views-exp-constitution-search-page-1 select {
-            width:100%;
+    #block-views-exp-constitution-search-page-1 select,
+    #block-views-exp-constitution-search-page-1 input ,
+    #block-views-exp-constitution-search-page-1 .views-exposed-widget {
+      margin-bottom: 5px;
+      width: 100%;
         
     }
-    #block-views-exp-constitution-search-page-1 input {
-                    width:100%;
-        
-    }
+      #block-views-exp-constitution-search-page-1 .views-exposed-widget .description {
+            color: #ccc;
+            font-size: 11px;
+      }
+      .view-constitution-search {
+          
+      }
+      .view-constitution-search .views-field-title,
+      .view-node-view .views-field-title {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+          
+      }
+      .view-constitution-search .views-field-title a,
+      .view-node-view .views-field-title a{
+        color: #a0ce4e;
+        font-size: 20px;
+          
+      }
+      .view-constitution-search .views-field-body,
+      .view-node-view .views-field-body{
+        margin-bottom: 30px;
+      }
+      .node-form.node-share_link-form .vertical-tabs {
+          display:none;
+          
+      }
+      .share-form-submit {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 1px 20px 20px;
+    width: 50%;
+          
+      }
+      .share-form-submit h1 {
+              font-size: 1.5em;
+          
+      }
+      .share-form-submit form {
+          
+      }
+      .share-form-submit form .form-field-name-field-article-link .form-item-field-article-link-und-0-url {
+          margin: 0px;
+      }
+      .view-node-view .views-field-title {
+            display:none;
+      }
+      
+.view-node-view .views-field-body {
+    background: none repeat scroll 0 0 #efefef;
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    padding: 20px;
+    float: left;
+        border-radius: 10px;
+}
+.view-node-view .views-field-field-article-deatil .views-label {
+        font-weight: bold;
+}
+.view-node-view .views-field-field-article-deatil .field-content {
+}
+.view-node-view .views-field-field-article-deatil {
+    font-size: 14px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.view-share-this {
+        display: inline-block;
+    width: 100%;
+    margin-left: 10px;
+    
+}
+.view-share-this .view-header h1 {
+    font-size: 1.5em;
+    line-height: 50px;
+    
+}
+.view-share-this .views-row {
+    border: 1px solid #efefef;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    padding: 1%;
+    text-align: left;
+    width: 45%;
+    
+}
+.view-share-this .views-row .main {    text-align: left;}
+.view-share-this .views-row .main .left {   float: left;
+    margin-right: 5px;
+    min-height: 65px;}
+.view-share-this .views-row .main .right {}
+.view-share-this .views-row .main .right .top {    color: #333;}
+.view-share-this .views-row .main .right .bottom span {    background: none repeat scroll 0 0 #a0ce4e;
+    color: #fff;
+    float: left;
+    margin-top: 5px;
+    padding: 3px 5px;}
+.node-form.node-share_link-form #edit-field-article {
+       display:none;
+    
+}
+.view-node-view .views-field-nothing {
+        float: right;
+    width: 100%;
+    
+}
+.view-node-view .views-field-nothing .ann {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #282a2b;
+    border-color: -moz-use-text-color #a0ce4e #a0ce4e;
+    border-image: none;
+    border-radius: 0 0 10px 10px;
+    border-right: 4px solid #a0ce4e;
+    border-style: none solid solid;
+    border-width: 0 4px 4px;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-top: -25px;
+    padding: 0 0 15px;
+    text-align: center;
+    width: 13%;
+    
+}
+.logged-in .view-node-view .views-field-nothing .ann {
+            margin-top: -25px;
+}
+.view-node-view .views-field-nothing .ann.an {
+        margin-right: 0px;
+}
+.view-node-view .views-field-nothing .ann .a {
+    background: none repeat scroll 0 0 #a0ce4e;
+    clear: both;
+    float: left;
+    margin-bottom: 9px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    
+}
+.view-node-view .views-field-nothing .ann .b {
+    margin-right: 0px;
+    
+}
+.not-front #header {
+    display:none;
+}
+.share-form-submit #user-login-form input.form-text {
+    width: 100%;
+}
+.share-form-submit #user-login-form ul {
+        padding: 0;
+}
+.share-form-submit #user-login-form ul li {
+        display: inline;
+    margin-right: 10px;
+}
+.front #header {
+    height: 200px;
+    display: none;
+}
+.front #header .header-left {
+    height: 195px !important;
+}
+.front #header a#logo {
+    margin: 0px;
+}
+#block-views-exp-constitution-search-page .views-exposed-form .views-exposed-widget {
+    float: left;
+    padding: 0;
+    width: 100%;
+}
+#block-views-exp-constitution-search-page .block-title {
+       color: #444;
+    font-size: 25px;
+    margin-bottom: 15px;
+    
+}
+a.nav-toggles {
+    display: none;
+}
+#block-views-exp-constitution-search-page .block-title .image {
+    display: block;
+    float: left;
+    width: 153px;
+}
+#block-views-exp-constitution-search-page .block-title .text {
+    color: #a0ce4e;
+    display: block;
+    float: left;
+    margin-bottom: 44px;
+    margin-left: 3px;
+    margin-top: 25px;
+    text-shadow: 1px 1px #666;
+}
+.view-node-view .views-field-sharethis {
+        text-align: center;
+}
+.background {
+        min-height: 516px;
+    opacity: 0.6;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}

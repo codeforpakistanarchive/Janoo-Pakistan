@@ -28,14 +28,24 @@
     <?php print views_embed_view('submitted_by','block'); ?>
   </div>
   <div class="main-content">
-  <?php
-    // We hide the comments and links now so that we can render them later.
-    hide($content['comments']);
-    hide($content['links']);
-    print render($content);
-  ?>
-  <?php print render($content['links']); ?>
-
-  <?php print render($content['comments']); ?>
+  <?php print views_embed_view('node_view', 'block'); 
+  print views_embed_view('share_this', 'block'); 
+   global $user;
+  if($user->uid != 0){
+      echo "<div class='share-form-submit'>";
+      echo "<h1>Post a Page Link</h1>";
+      $block = module_invoke('formblock', 'block_view', 'share_link');
+      print render($block['content']);
+      echo "</div>";
+  }
+    if($user->uid == 0){
+      echo "<div class='share-form-submit'>";
+      echo "<h1>Please login to Post Page Link</h1>";
+      $block = module_invoke('user', 'block_view', 'login');
+      print render($block['content']);
+      echo "</div>";
+        
+    }
+      ?>
   </div>
 </article>

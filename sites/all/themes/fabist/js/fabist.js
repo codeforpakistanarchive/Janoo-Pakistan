@@ -20,6 +20,9 @@ Drupal.behaviors.my_custom_behavior = {
 })(jQuery, Drupal, this, this.document);
 (function ($) {
   $(document).ready(function(){
+        $('#block-views-exp-constitution-search-page .form-item-data input.form-text').attr('placeholder', 'Article title, Article ID, Chapter, Part...');
+        $('#block-views-exp-constitution-search-page .block-title').html('<span class="image"><img class="header__logo-image" alt="Home" src="http://www.janoopakistan.nicontech.com/sites/all/themes/fabist/logo.png"></span><span class="text">KNOW ABOUT CONSTITUTION</span>');
+
 	$("#search-box span.icon").click(function() {
 	   $("#search-box #search-form").toggle();
 	   $("#search-box #search-form input.form-text").focus();
@@ -77,6 +80,7 @@ Drupal.behaviors.my_custom_behavior = {
 	  });
 $( ".view-portfolio.view-display-id-page_4 img" ).hover(
 function() {
+  
 var width = parseInt($(this).css("width"));
 var height = parseInt($(this).css("height"));
 var id_get = $( this ).parent().parent().attr("id");
@@ -90,18 +94,7 @@ $(".view-portfolio.view-display-id-page_4 .views-fluidgrid-item #"+id_get+" .inf
 $(".view-portfolio.view-display-id-page_4 .views-fluidgrid-item #"+id_get+" .info").hide();
 }
 );
- $(function() {
-$( "#tabs" ).tabs();
-});
-  $(function() {
-$( "#accordion" ).accordion();
-});
-   $(function() {
-$( "#dialog" ).dialog();
-});
- $(function() {
-$( "#menu-list" ).menu();
-});
+
 $( ".view-portfolio.view-display-id-page_4 .views-fluidgrid-item .info" ).hover(
 function() {
 $(this).show();

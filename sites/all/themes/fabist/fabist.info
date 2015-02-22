@@ -56,6 +56,7 @@ stylesheets[all][] = css/portfolio.css
 stylesheets[all][] = css/responsive.css
 
 
+
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html
 ; element, such as .lt-ie9, .lt-ie8, .lt-ie7. More information on this
@@ -74,7 +75,6 @@ scripts[] = js/slide-ui.js
 scripts[] = js/fabist.js
 scripts[] = js/default-menu.js
 scripts[] = js/features/features.js
-
 
 
 
